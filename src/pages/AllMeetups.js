@@ -20,7 +20,7 @@ const AllMeetups = () => {
         setMeetups(meetup);
       });
     setLoading(false);
-  }, []);
+  }, [meetups]);
 
   return (
     <div>
