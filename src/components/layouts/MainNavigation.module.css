@@ -46,3 +46,23 @@
   padding: 5px 10px;
   margin-left: 0.5rem;
 }
+
+@media screen and (max-width: 500px) {
+  .header ul,
+  .header {
+    flex-direction: column;
+    height: 12.2rem;
+    padding: 0;
+    margin: 0;
+  }
+  .header nav,
+  .header li {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .header li {
+    border-top: 1px solid #fff;
+  }
+}
